@@ -1,0 +1,15 @@
+.main-container{
+
+   display: grid;
+    grid-template-columns:  4fr 1fr;
+}
+.doctors-container{
+    border-right: 1px solid grey;
+    margin-left: 30px;
+
+
+}
+.doctors-container{
+
+    text-align: center;
+}

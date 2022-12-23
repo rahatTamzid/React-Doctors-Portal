@@ -1,0 +1,25 @@
+.header{
+
+text-align: center;
+}
+.header nav{
+    background-color: rgb(20, 47, 69);
+    line-height: 40px;
+}
+.header nav a{
+
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.header nav a:hover{
+background-color: rgb(2, 0, 54);
+width: 30px;
+}
+.front section h1,h2{
+    text-align: center;
+}
+

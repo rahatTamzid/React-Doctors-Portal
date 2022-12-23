@@ -1,0 +1,207 @@
+
+* {
+	margin:0px;
+	padding:0px;
+	border:none;
+	outline:none;
+}
+
+
+body {
+	font-size:14px;
+	color:#777777;
+	line-height:1.7em;
+	font-weight:400;
+	background:#ffffff;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-family: 'Poppins', sans-serif;
+}
+
+a{
+	text-decoration:none;
+	cursor:pointer;
+	color:#240b18;
+}
+
+button,
+a:hover,a:focus,a:visited{
+	text-decoration:none;
+	outline:none !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	position:relative;
+	font-weight:normal;
+	margin:0px;
+	background:none;
+	line-height:1.6em;
+	font-family: 'Ubuntu', sans-serif;
+}
+textarea{
+	overflow:hidden;
+}
+
+p,.text{
+	position:relative;
+	font-size: 16px;
+	line-height: 26px;
+	color: #888888;
+	font-weight: 400;	
+}
+
+ul,li{
+	list-style:none;
+	padding:0px;
+	margin:0px;	
+}
+
+img{
+	display:inline-block;
+	max-width:100%;
+}
+
+
+
+.doctor-block-two{
+
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.doctor-block-two .inner-box{
+	position: relative;
+	background-color: #ffffff;
+	overflow: hidden;
+	padding: 20px 0 10px;
+	box-shadow: 0 20px 30px rgba(0,0,0,0.10);
+	border: 1px solid #dddddd;
+    border-radius: 10px;
+	border-bottom: 5px solid #1c94d2;
+	max-width: 300px;
+	margin: 0 auto;
+	-webkit-transition: all 600ms ease;
+	-moz-transition: all 600ms ease;
+	-ms-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+	transition: all 600ms ease;
+}
+
+.doctor-block-two .inner-box:hover{
+	box-shadow: none;
+}
+
+.doctor-block-two .inner-box:before{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	
+}
+
+.doctor-block-two .info-box{
+	position: relative;
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 0 30px 30px 0;
+	background-color: #1c94d2;
+	margin-bottom: 10px;
+}
+
+.doctor-block-two .info-box .name{
+	position: relative;
+	font-size: 18px;
+	line-height: 1.2em;
+	color: #ffffff;
+	font-weight: 500;
+}
+
+.doctor-block-two .info-box .name a{
+	color: #ffffff;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.doctor-block-two .info-box .name a:hover{
+	color: #ffffff;
+}
+
+.doctor-block-two .info-box .designation{
+	position: relative;
+	display: block;
+	font-size: 14px;
+	line-height: 20px;
+	color: #ffffff;
+	font-weight: 400;
+}
+
+.doctor-block-two .image-box{
+	position: relative;
+	display: block;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.doctor-block-two .image-box .image{
+	position: relative;
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	overflow: hidden;
+	border: 4px solid #1c94d2;
+	box-shadow: 0 0 20px rgba(0,0,0,0.10);
+	border-radius: 50%;
+	z-index: 9;
+	margin-bottom: 0;
+}
+
+.doctor-block-two .image-box .image img{
+	display: block;
+	width: 100%;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.doctor-block-two .inner-box:hover .image img{
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.doctor-block-two .social-box{
+	position: relative;
+	display: block;
+	text-align: center;
+}
+
+
+.button {
+    background-color: #1277b6;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .DoctorCard{
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 230px;
+	height: auto;
+	overflow: hidden;
+   
+  }
